@@ -1,14 +1,17 @@
-<!-- <p>header works!</p> -->
+
 <header>
     <nav>
-        <img src="assets/img/icono de figma - curso angular.svg" alt="">
+        <a routerLink="home">
+            <img src="assets/img/icono de figma - curso angular.svg" alt="Inicio">
+          </a>
+        <!-- <img src="assets/img/icono de figma - curso angular.svg" alt=""> -->
 
     <ol>
-        <li><a routerLink="home">Inicio</a></li>
         <li><a routerLink="series">Series</a></li>
         <li><a routerLink="movies">Peliculas</a></li>  
     </ol>
-    <button>Ingresar</button>
+    <button [routerLink]="'/enter'">Ingresar</button>
+ <!-- <a routerLink="enter"> </a> como poner la etiqueta link router en el button-->
     </nav>
 
       </header>
