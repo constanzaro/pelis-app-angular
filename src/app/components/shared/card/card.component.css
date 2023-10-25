@@ -1,107 +1,45 @@
 
-.hero {
-  background-color:#121829;
-  display: flex;
-  flex-direction:column;
-  align-items: flex-start;
-    justify-content: center;
-    position: relative;
-  
-  
-   
-  }
 
-  .hero_txt {
-      text-align: left; 
-      margin-left: 20px; 
-      color: #C3C8D4;
-  }
-
-  .hero_buscador{
-    margin-bottom: 10px;
-    margin-left: 20px;
-    background-color:#121829;
-    
-   
-     
-  }
-    
-  .hero_buscador input{
- 
-    color: white;
-    background-color: #333;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-}
-
-.tab_categorias{
- margin-left: 20px;
+/* .card-container {
   background-color:#121829;
     display: flex;
-    flex-direction:column;
-    align-items: flex-start;
-      justify-content: center;
-           
-}
-
-.tab_categorias form {
-  background-color: #333
-
-}
- 
-.tab_categorias button {
-  margin-right: 10px; 
-  align-items: center;
-   justify-content: center;
-  background-color:#333;
-  border: 1px solid #333;
-  color: white;
-  transition: background-color 0.3s;
-}
-.tab_categorias button:hover {
-background-color: #7B6EF6; 
-}
-
-.card-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.card {
-  margin-top: 10px;
-  margin-left: 20px;
-  width: 22%;
-  position: relative;
-  display: flex;
-flex-direction: column;
-align-items: center;
-background-color: #C3C8D4;
-    
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
   
-}
-
-.card img{
-  width: 200px;
-  height: 250px;
-  border-radius: 0%;
+  .card {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 22%;
+    position: relative;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #C3C8D4;
-  align-items: center;
-  margin-top: 10px;
-}
-.card h3 {
-  margin: 3px 0;
-  text-align: center;
+      
+    
+  }
   
-}
-.card p{
-margin: 3px 0;
-text-align: center;
-}
-
-.card button{
- 
+  .card img{
+    width: 200px;
+    height: 250px;
+    border-radius: 0%;
+    background-color: #C3C8D4;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .card h3 {
+    margin: 3px 0;
+    text-align: center;
+    
+  }
+  .card p{
   margin: 3px 0;
   text-align: center;
-}
+  }
+  
+  .card button{
+   
+    margin: 3px 0;
+    text-align: center;
+  } */
