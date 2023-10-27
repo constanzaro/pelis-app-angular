@@ -11,11 +11,11 @@ import { IDataMoviesSeries } from 'src/app/components/routes/home/home.component
 
 export class CardComponent {
 
-  // @Input() cardData: IDataMoviesSeries = {} as IDataMoviesSeries;
+  @Input() cardData: IDataMoviesSeries = {} as IDataMoviesSeries;
 
-  // constructor() {
-  //   // Constructor del componente CardComponent
-  // }
+  constructor() {
+    // Constructor del componente CardComponent
+  }
 }
 
 
