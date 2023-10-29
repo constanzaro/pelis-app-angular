@@ -8,9 +8,11 @@ import { SharedModule } from './components/shared/shared.module';
 import { RouterModule } from '@angular/router';
 import { RoutesModule } from './components/routes/routes.module';
 
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+   
   ],
   imports: [
     BrowserModule,

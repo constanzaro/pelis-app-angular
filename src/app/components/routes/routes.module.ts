@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { MoviesComponent } from './movies/movies.component';
 import { SeriesComponent } from './series/series.component';
 import { EnterComponent } from './enter/enter.component';
+import { SharedModule } from '../shared/shared.module';
 
 
 
@@ -15,7 +16,8 @@ import { EnterComponent } from './enter/enter.component';
     EnterComponent,
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    SharedModule,
   ]
 })
 export class RoutesModule { }
