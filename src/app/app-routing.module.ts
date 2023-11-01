@@ -4,6 +4,7 @@ import { HomeComponent } from './components/routes/home/home.component';
 import { MoviesComponent } from './components/routes/movies/movies.component';
 import { SeriesComponent } from './components/routes/series/series.component';
 import { EnterComponent } from './components/routes/enter/enter.component';
+import { LoginComponent } from './components/auth/login/login.component';
 
 const routes: Routes = [
 
@@ -12,6 +13,10 @@ const routes: Routes = [
   component: HomeComponent, 
 },
 
+{
+  path: "login",
+  component:LoginComponent,
+},
 {
   path:"movies",
   component: MoviesComponent,

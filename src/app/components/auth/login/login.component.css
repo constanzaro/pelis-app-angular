@@ -1,0 +1,65 @@
+.form{
+    background-color:#121829;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0; 
+    padding: 0;
+    
+    }
+
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        justify-content: center;
+        margin: 0; 
+        padding: 0; 
+    }
+
+        .formulario h1{
+        margin-bottom: 10px;
+        color: white;
+    }
+
+     .formulario input{
+        width: 50%;
+        margin-bottom: 5px;
+        height: 40px;
+        border-color: #323B54;
+        border-radius: 05%;
+        padding: 05px 10px;
+        background-color: transparent;
+        color: white;
+     }
+
+    .formulario h3 {
+        color: white;
+    }
+    .register {
+     color: #2D9CDB;
+    }    
+
+    .formulario button{
+        width: 50%;
+        margin-bottom: 5px; 
+        background-color: #7B6EF6;
+        color: white;
+        display: block;
+        border-radius: 1px solid #475069;
+        border: none;
+        height: 40px;
+        font-size: 13px;
+        
+    }
+
+/* Estilo cuando el botón está deshabilitado (gris) */
+button.click:disabled {
+    background-color: gray;
+  }
+  
+  /* Estilo cuando el botón está habilitado (azul) */
+  button.click:not(:disabled) {
+    background-color: blue;
+    color: white; 
+  }
