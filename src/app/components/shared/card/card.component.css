@@ -28,6 +28,7 @@
     background-color: #C3C8D4;
     align-items: center;
     margin-top: 10px;
+    object-fit: cover;
   }  
 
 .card h3 {

@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { IDataMoviesSeries } from 'src/app/components/routes/home/home.component';
+import { IDataMoviesSeries } from 'src/app/models/trending.interfaces';
 
 
 @Component({

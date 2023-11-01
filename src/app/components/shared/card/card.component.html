@@ -9,9 +9,9 @@
 </div> -->
 
 <div class="card-container">
-<div class="card">
-        <img src="{{cardData.urlImg}}" alt="">
-       <h3>{{cardData.name}}</h3>
-        <!-- <p>{{cardData.description}}</p> -->
-      </div> 
-</div> 
+        <div class="card">
+                <img src="https://image.tmdb.org/t/p/original{{cardData.backdrop_path}}"alt="">
+                <h3>{{cardData.title ? cardData.title : cardData.name}}</h3>
+                <!-- <p>{{cardData.description}}</p> -->
+        </div>
+</div>
